@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/alertDialog"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:text="Alert Dialog"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/customDialog"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:text="Custom Dialog"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+
+    <Button
+        android:id="@+id/fragmentDialog"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:text="Fragment Dialog"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/dateDialog"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:text="DatePicker Dialog"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/timePickerDialog"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:text="TimePicker Dialog"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bottomSheetDialog"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:text="BottomSheet Dialog"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/snackbar"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:text="Snackbar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
